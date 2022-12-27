@@ -2,6 +2,25 @@
 using namespace std;
 
 //Write the function printO() here
+void printO(int x,int y)
+{
+    string O = "O";
+    if (x>0 and y>0){
+    for(int i=1;i<y;i++)
+    {
+        O+="O";
+    }
+    for(int j=0;j<x;j++)
+    {
+        cout<<O;
+        cout<<"\n";
+    }
+    
+    }
+    else{
+    cout<<"Invalid input";
+    }
+}
 
 int main(){
 	
